@@ -17,6 +17,7 @@ which model is the best fit.
 
 
 PART 1 :
+
 We predicted the average surprise ratings by building and running the following models.
 Here we have 500 cases of human ratings for each article with variables like surprise
 ratings, like ratings, familiarity ratings, categories, title and article ids. As we have to find
@@ -34,13 +35,16 @@ Logistic Regression
 Random forest 
 Naive Bayes
 
-Result : Based on the above three models , we observed that the Logistic Regression model
+Result : 
+
+Based on the above three models , we observed that the Logistic Regression model
 gave us better accuracy in predicting the human’s average surprise rating for the three human
 raters (r1,r2,r3). Even though logistic regression gave a better accuracy, as we can see from the
 above screenshots, naive bayes model has done a better job at splitting the data and predicting it.
 Therefore we can deduce that naive bayes is a better predictive model for the above case.
 
 PART 2 :
+
 We have constructed the following predictive models to address the below question -
 Each individual human rater’s surprise rating for an article using whatever your proposed
 features (1,500 cases in total)
@@ -63,6 +67,8 @@ predictive models.
 - Random forest
 - Neural network
 
-Result : Based on the above three models , we observed that the Neural network model gave us
+Result : 
+
+Based on the above three models , we observed that the Neural network model gave us
 better accuracy in predicting the human’s average surprise rating for the three human raters
 (r1,r2,r3).
