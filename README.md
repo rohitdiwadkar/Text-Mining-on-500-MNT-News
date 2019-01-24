@@ -1,5 +1,12 @@
+
+
+
+
+
+
+
 # Text-Mining-on-500-MNT-News
-In this project we predicted some surprised ratings for three raters on basis of many variables by using text mining techniques.
+## In this project we predicted some surprised ratings for three raters on basis of many variables by using text mining techniques.
 
 Text Mining is the process of deriving high-quality information from text. High-quality
 information is typically derived through the devising of patterns and trends through means such
@@ -16,7 +23,7 @@ greatly helped us understand how the raters rated the articles on the basis on t
 which model is the best fit.
 
 
-PART 1 :
+## PART 1 :
 
 We predicted the average surprise ratings by building and running the following models.
 Here we have 500 cases of human ratings for each article with variables like surprise
@@ -35,7 +42,7 @@ Logistic Regression
 Random forest 
 Naive Bayes
 
-Result : 
+## Result : 
 
 Based on the above three models , we observed that the Logistic Regression model
 gave us better accuracy in predicting the human’s average surprise rating for the three human
@@ -43,7 +50,7 @@ raters (r1,r2,r3). Even though logistic regression gave a better accuracy, as we
 above screenshots, naive bayes model has done a better job at splitting the data and predicting it.
 Therefore we can deduce that naive bayes is a better predictive model for the above case.
 
-PART 2 :
+## PART 2 :
 
 We have constructed the following predictive models to address the below question -
 Each individual human rater’s surprise rating for an article using whatever your proposed
@@ -67,7 +74,7 @@ predictive models.
 - Random forest
 - Neural network
 
-Result : 
+## Result : 
 
 Based on the above three models , we observed that the Neural network model gave us
 better accuracy in predicting the human’s average surprise rating for the three human raters
